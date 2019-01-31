@@ -6,6 +6,7 @@ For more information on The Virtual Brain (TVB) please see
 www.thevirtualbrain.org
 
 For questions and other enquiries please contact 
+
 Michael Schirner (m.schirner@fu-berlin.de) or 
 Petra Ritter (petra.ritter@charite.de).
 
