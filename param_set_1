@@ -1,0 +1,16 @@
+84 0.65 0.15 1.4 1.0 0.01 900000 10000 720 999999.99 41 
+
+
+Parameter sorting:
+
+1. nodes: 	the number of nodes
+2. G: 		global coupling scaling factor
+3. J_NMDA: 	strength of NMDA coupling
+4. w_plus:	strength of excitatory recurrence
+5. J_i:		the initial J_i value -- will be overwritten by J_i tuning
+6. sigma: 	noise level
+7. time_steps:  simulation time steps in ms
+8. FIC_len: 	length of the time window for which average firing rates are computed during FIC in ms. Experience shows that it shouldn't be shorter than 10000 ms.
+9. BOLD_TR:  	TR of the simulated BOLD data in ms
+10. trans_v:    transmission velocity in m/s. For instantaneous transmission set to a large value (like 999999.99)
+11. seed:     	seed for random number generator
