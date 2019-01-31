@@ -22,7 +22,7 @@ Example
 
 • The first argument specifies a text file that contains parameters (see the file 'param_set_1' for an example and description of paramters)
 
-• The second argument specifies the subject-id for the input files contained in the folder _'input'_. Each of the three input files must have <subject_id> as prefix and as suffix either _"_SC_strengths.txt"_, _"_SC_distances.txt"_ or, _"_SC_regionids.txt"_. The three files specify structural connectivity of the brain network model in a sparse matrix format. The enclosed Matlab script _generate_input_SC.m_ generates these input files from Matlab's standard matrix format.
+• The second argument specifies the subject-id for the input files contained in the folder _'input'_. Each of the three input files must have <subject_id> as prefix and as suffix either _"\_SC\_strengths.txt"_, _"\_SC\_distances.txt"_ or, _"\_SC\_regionids.txt"_. The three files specify structural connectivity of the brain network model in a sparse matrix format. The enclosed Matlab script _generate_input_SC.m_ generates these input files from Matlab's standard matrix format.
 
 • Results are written into folder _'output'_. File-schema: BOLD_<parameter_file>.txt; the first n lines (n=number of regions) contain two columns each that contain the sum of all input strengths for that region and the J_i value found during FIC tuning, respectively. The following t lines contain n columns each and contain simulated fMRI BOLD activity for t time points.
 
