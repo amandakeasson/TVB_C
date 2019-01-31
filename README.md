@@ -3,7 +3,7 @@
 The code implements a brain network model composed of connected ReducedWongWang neural mass models (Wong & Wang, 2006) with feedback inhibition control (FIC). For more information on the model and FIC please see Deco et al. (2014), Schirner et al. (2018) and Shen et al. (2019).
 
 For more information on The Virtual Brain (TVB) please see 
-thevirtualbrain.org
+www.thevirtualbrain.org
 
 For questions and other enquiries please contact 
 Michael Schirner (m.schirner@fu-berlin.de) or 
@@ -28,7 +28,7 @@ Example
 
 • The relative folder structure, i.e., the location of the folders 'input' and 'output' relative to the program binary needs to remain stable, otherwise the program won't be able to read or write data.
 
-• Due to optimization reasons, the number of nodes must be divisible by four. If the number of nodes is not divisible by four, "fake" regions must be added that contain zero coupling to other nodes (all zeros in capacities matrix).
+• Due to optimization reasons, the number of nodes must be divisible by four. If the number of nodes is not divisible by four, "fake" regions must be added that contain zero coupling to other nodes (all zeros in strength matrix).
   
   
 # Compilation
